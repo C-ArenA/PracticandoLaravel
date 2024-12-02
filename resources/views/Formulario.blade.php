@@ -1,5 +1,5 @@
 <!-- Formulario Blade View -->
-<form action="/ToDoList/public/Formulario" method="post">
+<form action="/Formulario" method="post">
     @csrf
     <input type="text" name="name" id="name" placeholder="Nombre:" required>
     <input type="email" name="email" id="email" placeholder="Email:" required>

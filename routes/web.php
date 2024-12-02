@@ -12,7 +12,7 @@ Route::get('/', function () {
 Route::get('/hola',[MyController::class,'index']);
 Route::get('principal',[MyController::class,'main']);
 
-Route:: get('/Formulario',function(){
+Route::get('/Formulario',function(){
     return view('Formulario');
 
 });
